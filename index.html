@@ -1,0 +1,38 @@
+<html>
+	<head>
+		<title>Calculadora</title>
+
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+	</head>
+
+  <body>
+
+    <div class="container">
+      <div class="row">
+        <div class="col d-flex justify-content-center">
+          <br />
+
+          <div class="cronometro">
+            <div id="visor">
+                <span id="horas">00</span>:
+                <span id="minutos">00</span>:
+                <span id="segundos">00</span>:
+                <span id="milisegundos">00</span>
+                
+            </div>
+            
+            <div class="row">
+              <button onclick="start()" type="button" class="btn btn-dark btn-lg clear font-weight-light mt-3" >start</button>
+              <button onclick="pause()" type="button" class="btn btn-dark btn-lg font-weight-light mt-3">pause</button>
+              <button onclick="reset()" type="button" class="btn btn-dark btn-lg font-weight-light mt-3">reset</button>
+            </div>
+
+           
+    </div>   
+
+    <script src="main.js"></script>
+  </body>	
+
+</html>
